@@ -1,0 +1,35 @@
+//create file 
+touch file.txt
+
+// remove file
+rm  file.txt
+
+//remove folder
+rm -rf new-folder/
+
+//open directory
+explorer .
+
+// list directory files
+ls -la
+
+//list the file content
+cat txt.txt
+
+//edit file 
+nano txt.txt
+
+// low level code that create Blob object .
+echo "hello  , git" | git hash-object --stdin
+
+// status 
+git status
+
+// confiugration list 
+git config --list
+
+//change the git user name 
+git config --global user.name "Alaa95"
+
+//change the git user email 
+git config --global user.email "Alaa95@ddd.com"
