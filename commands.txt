@@ -34,11 +34,23 @@ git config --global user.name "Alaa95"
 //change the git user email 
 git config --global user.email "Alaa95@ddd.com"
 
-// stageing the changes to stage area
+//get stage fils list .
+git ls-files -s
+
+
+//stageing the changes to stage area
+git add .
 git add commands.txt
 
-// commit changes to repository 
+//completely remove file from the staging area. (un-track file)
+git rm --cached <file>
+
+//commit changes to repository 
 git commit -m "sec first commit"
 
 // get logs commit histoy .
-got logs
+got log
+
+// checkout
+git checkout <Sha1>
+git checkout <branch>
