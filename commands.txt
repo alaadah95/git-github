@@ -51,6 +51,23 @@ git commit -m "sec first commit"
 // get logs commit histoy .
 got log
 
+
+/**** Branches ****/
+// List all local branches
+git branch
+
+// create new branch (name always with no spaces)
+git branch <name>
+git checkout -b <branch name> //create new branch and switch to the new branch (let HEAD pointer this branch) .
+
 // checkout
 git checkout <Sha1>
 git checkout <branch>
+
+
+// delete specific branch . 
+git branch -d <name>   //will delete only merged branch .
+git branch -D <name>   //will delete non-merged branch .
+
+// rename specific branch
+git branch -m <old> <new>
