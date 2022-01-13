@@ -45,6 +45,8 @@ git add commands.txt
 //completely remove file from the staging area. (un-track file)
 git rm --cached <file>
 
+//stage all files and commit in one line .
+git commit -a -m "sec first commit"
 //commit changes to repository 
 git commit -m "sec first commit"
 
