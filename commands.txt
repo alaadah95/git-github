@@ -57,7 +57,8 @@ got log
 /**** Branches ****/
 // List all local branches
 git branch
-
+// List all remote branches
+git branch -a
 // create new branch (name always with no spaces)
 git branch <name>
 git checkout -b <branch name> //create new branch and switch to the new branch (let HEAD pointer this branch) .
@@ -80,3 +81,5 @@ git merge <feature-branch>
 // check differences 
 git diff
 
+//clone repository
+git clone <link>
